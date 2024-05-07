@@ -4629,13 +4629,13 @@ dependencies = [
 
 [[package]]
 name = "mdxjs"
-version = "0.2.1"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6fa6cd8065bf213b93b0c43dc2ca4828b6a41a9d44abe66c6b0e313a3c44a2e1"
+checksum = "e5860860bfc09972a5d99bfb866dde39485fe397210f8a9ccf68a6c6740d687b"
 dependencies = [
  "markdown",
  "serde",
- "swc_core 0.91.4",
+ "swc_core",
 ]
 
 [[package]]
@@ -8137,7 +8137,7 @@ dependencies = [
  "clap 4.5.2",
  "owo-colors",
  "regex",
- "swc_core 0.92.0",
+ "swc_core",
 ]
 
 [[package]]
@@ -8283,22 +8283,6 @@ dependencies = [
  "quote",
  "swc_macros_common",
  "syn 2.0.58",
-]
-
-[[package]]
-name = "swc_core"
-version = "0.91.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "928db865b085ffb7fb4b41eefebb9a49223f2130e7acaf994131cebabff2eca9"
-dependencies = [
- "swc_atoms",
- "swc_common",
- "swc_ecma_ast",
- "swc_ecma_codegen",
- "swc_ecma_parser",
- "swc_ecma_transforms_base",
- "swc_ecma_visit",
- "vergen",
 ]
 
 [[package]]
@@ -10869,7 +10853,7 @@ dependencies = [
  "node-file-trace",
  "styled_components",
  "styled_jsx",
- "swc_core 0.92.0",
+ "swc_core",
  "swc_emotion",
  "swc_relay",
  "testing",
@@ -11011,7 +10995,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sourcemap",
- "swc_core 0.92.0",
+ "swc_core",
  "tokio",
  "tracing",
  "turbo-tasks",
@@ -11049,7 +11033,7 @@ dependencies = [
  "regex",
  "serde",
  "smallvec 1.13.1",
- "swc_core 0.92.0",
+ "swc_core",
  "tracing",
  "turbo-tasks",
  "turbo-tasks-build",
@@ -11118,7 +11102,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sourcemap",
- "swc_core 0.92.0",
+ "swc_core",
  "tokio",
  "tracing",
  "turbo-tasks",
@@ -11157,7 +11141,7 @@ dependencies = [
  "serde_json",
  "styled_components",
  "styled_jsx",
- "swc_core 0.92.0",
+ "swc_core",
  "swc_emotion",
  "swc_relay",
  "turbo-tasks",
@@ -11331,7 +11315,7 @@ dependencies = [
 name = "turbopack-swc-utils"
 version = "0.1.0"
 dependencies = [
- "swc_core 0.92.0",
+ "swc_core",
  "turbo-tasks",
  "turbo-tasks-build",
  "turbopack-core",
